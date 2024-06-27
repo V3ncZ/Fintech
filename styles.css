@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+:root {
+    --color-background: #5E2129;
+    --color-icon: #fff; 
+    --color-black: #1d1d1b
+}
+
+#menu {
+    width: 30%;
+    margin-top: 15px;
+    background-color: var(--color-background);
+    border: 2px solid var(--color-black);
+}
+
+.btn {
+    font-size: 40px;
+    color: var(--color-icon);
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.user-icon {
+    padding: 8px;
+    margin-top: 30px;
+    background-color: var(--color-background);
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    color: var(--color-icon);
+    border:  2px solid var(--color-black);
+    border-radius: 50%;
+}
+
+.nome {
+    font-size: 20px;
+    color: var(--color-icon);
+}
+
+#menu-principal {
+    width: 90%;
+    min-height: 500px;
+    margin-bottom: 20px;
+    background-color: var(--color-icon);
+    border: 2px solid var(--color-black);
+    border-radius: 15px;
+}
+
+#fatura, #conta {
+    margin-top: 40px;
+}
+
+#conta {
+    border-right: 2px solid var(--color-black);
+}
+
+.cor {
+    width: 70%;
+    height: 110px;
+    border: 2px solid var(--color-black);
+    border-radius: 15px;
+    margin-left: 30px;
+    background-color: #D4C8B6;
+}
+
+#cartao {
+    margin-top: 40px;
+}
+
+.cor-cartao {
+    width: 70%;
+    height: 200px;
+    border: 2px solid var(--color-black);
+    border-radius: 15px;
+    margin-left: 68px;
+    background-color: #D4C8B6;
+}
+
+.btn-menu {
+    font-size: 24px;
+    background-color: var(--color-icon);
+    border: 2px solid var(--color-black);
+    border-radius: 15px;
+}
